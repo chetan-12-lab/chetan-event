@@ -19,7 +19,13 @@ include "cssjs/css.php";
     
   }
   </style>
-  
+  <script>
+    function al(){
+      alert("Successfully registered");
+      window.location.href = "index.php";
+
+    }
+  </script>
 
 <section class="ftco-section contact-section ftco-degree-bg">
       <div class="container">
@@ -69,7 +75,7 @@ include "cssjs/css.php";
               </div>
             </div>
               <div class="form-group">
-                <input  value="Register" type="submit" name="signup_button" class="btn btn-primary py-3 px-5 " required>
+                <input onclick="al()" value="Register" type="submit" name="signup_button" class="btn btn-primary py-3 px-5 " required>
               </div>
             </form>
           
